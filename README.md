@@ -1,34 +1,39 @@
-# Tech Tacos: Using Mardown in GitHub
+# Tech Tacos: Using Math in Markdown (in GitHub)
 
-Both LaTeX and Markdown are examples of markup language. Today, we'll be learning how to use Markdown, an easy programming language that helps make clean formatting on multiple platforms.
+Both LaTeX and Markdown are examples of markup language. Today, we'll be learning how to use LaTeX math notation in Markdown to make pretty equations for repos and GitHub pages.
+
+For more about markup and Markdown, check out the [Learning-Markdown](https://github.com/drklis/Learning-Markdown) repo.
 
 ![TechTaco](https://avatars.githubusercontent.com/u/145585316?s=48&v=4)
 
-## What is Markup?
+## What is LaTeX?
 
-A markup language is a system that uses *tags* to define and annotate the structure and presentation of a document. These tags can include anything from simple **emphasis** to making headings and lists to inserting extras like links or pictures.
+LaTeX is a markup language, based off of TeX. TeX was designed for scientists and mathematicians to write clean-looking academic papers that could render mathematical notation for printing and viewing on screens. 
 
-Have you heard of HTML, the code that helps create webpages? The letters stand for **Hypertext Markup Language**. HTML is just one example of a markup language. A few others include XML (helps websites with more data intensive applications), LaTeX (used in writing academic papers), and Markdown (what we're learning today!).
+GitHub has incorporated LaTeX math notation directly into its Markdown rendering through [MathJax](https://www.mathjax.org/). By using the math environment delimiters directly in a Markdown (.md) file, you can display an equation as it was meant to be.
 
-Markup languages very common because they are relatively easy to use and provide standardized definitions of various formatting elements, making it easier for computers and software applications to interpret and display the content correctly. 
-This can ensure similar quality between displaying text on different screens, different browsers, etc.
+#### Example
 
-### Coding instead of Clicking
+Let's consider the well-known **quadratic formula**, which takes the coeffiecients in a quadratic form and solves for the variable value that sets the equation equal to zero. For this example, we will look at two equations: the quadratic form, and the quadratic formula. Each will be written in plain text, LaTeX math notation, and code snippet. Notice how much nicer the math looks when rendered properly!
 
-If you've ever worked with Microsoft Word or Google Docs, then you have experience with a "What You See is What You Get" (WYSIWYG) type system. You interact with the Graphical User Interface (GUI) to make styles and then what you see on the screen is what your document looks like. For example: you highlight text and then click "Bold" (or hit Ctrl+B) to make the text bold; you press enter to get a new line, or you might hit tab a few times to move something over horizontally.
+###### Quadratic Form
 
-WYSIWYG instill *bad habits* 😳 Using multiple tabs instead of declaring tab stops, using multiple new lines instead of a new page, etc. These might not seem like a big deal if your document is only ever on your machine, but if you send that document to a colleague (especially one on a different OS), try to upload it to Blackboard or another site, or try to look at it on your phone, the document might look a bit... off. Therefore, if we're working on multiple devices or online, we may want to switch over to a "What You See is What You Mean" (WYSIWYM) type system.
+|     | Code | Output |
+| -------- | ------- | ------- |
+| Plain  | ```a x^2 + b x + c = 0```  | a x^2 + b x + c = 0 |
+| LaTeX | ```$a x^2 + b x + c = 0$```| $a x^2 + b x + c = 0$ |
 
-With a WYSIWYM, you're looking at and editing the **code** that will eventually be made into the document you're working on. So instead of clicking things to make them bold, you type code. Instead of hitting enter a bunch of times, you hit it once for a new line and trust the system to space it nicely. Every now and then you hit "Preview" or compile your code to double-check what it looks like, and then you keep going.
+###### Quadratic Formula
 
-For example: 
-```
-With a WYSIWYM, you're looking at and editing the **code** that will...
-```
+|     | Code | Output |
+| -------- | ------- | ------- |
+| Plain  | ```x = (-b +- (b^2 - 4 a c)^1/2)/2a```  | x = (-b +- (b^2 - 4 a c)^1/2)/2a |
+| LaTeX | ```$x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$```| $x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$ |
 
-## What is Mardown?
 
-Markdown is the markup language that this document is written in! Markdown is common with websites, and it's very easy to use here in GitHub. Today, we'll learn about using Markdown while also practicing the GitHub workflow (branches, pulls, commits).
+
+
+
 
 #### Today's Activity
 
@@ -42,19 +47,13 @@ Markdown is the markup language that this document is written in! Markdown is co
 
 ## What's in this repo?
 
-- A semester planning and goal-setting sheet
-- A template for a weekly report, useful for reporting your progress to your advisor (from <a href="https://github.com/LucasVandroux/template-weekly-report" target="_blank" rel="noreferrer noopener">LucasVandroux</a>)
-- A template for writing up assignments (from <a href="https://gist.github.com/RobertTalbert/378fbf6e390d8ae97011" target="_blank" rel="noreferrer noopener">RobertTalber</a>)
 - A Markdown cheat sheet (from <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank" rel="noreferrer noopener">MarkdownGuide</a>)
-- A project planning sheet, particularly good for collaborative projects
 
 ## Want some links?
 
 'Course you do!
 
-- [GitHub's Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Markdown Guide](https://www.markdownguide.org/getting-started/)
-- [Fun, Easy Tutorial](https://www.markdowntutorial.com/)
-- [GitHub Skills "Communicate Using Markdown" Course](https://github.com/skills/communicate-using-markdown)
-- [Staying Organized with Markdown](https://www.mayerdan.com/programming/2016/11/26/standup-markdown-history)
+- [History of TeX and Some LaTeX Cheats/Ideas]([https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://math.vanderbilt.edu/schectex/wincd/intro_to_tex.htm)
+- [WebLaTex, A Way to Code LaTeX in GitHub Codespaces](https://github.com/sanjib-sen/weblatex)
+- [Free Online Introduction to LaTeX](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)), also available on [GitHub](https://github.com/jdleesmiller/latex-course/)
 
