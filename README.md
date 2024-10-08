@@ -42,6 +42,8 @@ Let's consider the well-known **quadratic formula**, which takes the coeffiecien
 ## What's in this repo?
 
 - A Markdown cheat sheet (from <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank" rel="noreferrer noopener">MarkdownGuide</a>)
+- Instructions for the activity
+- A template for a regression project repo
 
 ## Want some links?
 
