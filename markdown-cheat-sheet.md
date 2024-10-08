@@ -4,6 +4,8 @@ Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
 
 This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax/) and [extended syntax](https://www.markdownguide.org/extended-syntax/).
 
+*Some small edits made by [drklis](https://github.com/drklis). Viewing this file will show the formatting; viewing/editing the code will let you learn how to get that formatting.*
+
 ## Basic Syntax
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
@@ -81,10 +83,6 @@ Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
-### Heading ID
-
-### My Great Heading {#custom-id}
-
 ### Definition List
 
 term
@@ -106,14 +104,10 @@ That is so funny! :joy:
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
-### Highlight
+### Subscript (Using LaTeX Math)
 
-I need to highlight these ==very important words==.
+$H_2O$
 
-### Subscript
+### Superscript (Using LaTeX Math)
 
-H~2~O
-
-### Superscript
-
-X^2^
+$1^{st}$, $2^{nd}$, $3^{rd}$
