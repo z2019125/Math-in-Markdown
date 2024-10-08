@@ -53,7 +53,7 @@ Let's consider the well-known **quadratic formula**, which takes the coeffiecien
 
 'Course you do!
 
-- [History of TeX and Some LaTeX Cheats]([https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://math.vanderbilt.edu/schectex/wincd/intro_to_tex.htm)
+- [History of TeX and Some LaTeX Cheats](https://math.vanderbilt.edu/schectex/wincd/intro_to_tex.htm)
 - [WebLaTex, A Way to Code LaTeX in GitHub Codespaces](https://github.com/sanjib-sen/weblatex)
 - [Free Online Introduction to LaTeX](https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)), also available on [GitHub](https://github.com/jdleesmiller/latex-course/)
 
