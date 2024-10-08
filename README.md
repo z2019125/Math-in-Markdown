@@ -31,19 +31,13 @@ Let's consider the well-known **quadratic formula**, which takes the coeffiecien
 | LaTeX | ```$x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$```| $x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2a}$ |
 
 
-
-
-
-
 #### Today's Activity
 
-1. Go to <a href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noreferrer noopener">learn.microsoft.com</a>.
-2. Search for "markdown"
-3. Click "Communicate effectively on GitHub using Markdown - Training"
-4. Read through the Learning Objectives
-5. Scroll down and click "Exercise - Communicate using Markdown"
-6. This will take you to GitHub. Right click "Start Course" and clone the repo.
-7. Make sure to keep one tab open to the Readme page of your cloned repo and one in which you do the exercise.
+1. Clone this repo for yourself.
+2. At the top of the page, click "Add file." Then, on the drop-down menu, right-click "Create new file" and open in a new tab.
+3. Name your file "mathpractice.md" and keep this tab open.
+4. Now, back in this tab, click on the file "instructions.md." You can either open it in a new tab, or open it in this one.
+5. Follow the instructions in the "instructions.md" file and work in the "mathpractice.md" file you create. You can view your changes in either the preview tab, or by commiting your changes every so often.
 
 ## What's in this repo?
 
