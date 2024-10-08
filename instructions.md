@@ -214,9 +214,15 @@ This elegant equation, known as Euler's Identity, connects five fundamental math
 It's often regarded as one of the most beautiful equations in mathematics, showing a deep connection between exponential functions and trigonometry, as $e^{i\pi} = \cos(\pi) + i\sin(\pi) = -1$.
 ```
 
+*Blanking on cool equations? Consider the following:*
+- [The Pythagorean Theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem)
+- [A Cobb-Douglas Production Function](https://en.wikipedia.org/wiki/Cobb%E2%80%93Douglas_production_function)
+- [The Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers) or [the Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem)
+- [Other Examples](https://www.livescience.com/26681-most-beautiful-mathematical-equations.html)
+
 ### :keyboard: Activity: Create your mathematical cover page
 
-1. Edit the `mathpractice.md` file you created.
+1. Edit the `mathpractice.md` file you created or the `mathcoverpage.md` file that is also in the repo.
 2. Create a cover page for an equation you find interesting, following the structure in the example above.
 3. Use the **Preview** tab to check your formatting.
 4. Commit your changes.
